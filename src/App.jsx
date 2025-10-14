@@ -2,7 +2,7 @@ import { useState } from "react";
 import { COMB_WIN } from "./comb-win"
 import Player from "./components/Player";
 import Board from "./components/Board";
-import Scores from "./components/Scores";
+import Logs from "./components/Logs";
 import GameOver from "./components/GameOver";
 
 const INITIAL_BOARD = [
@@ -98,7 +98,7 @@ function App() {
         {(winner || hasDraw) && <GameOver winner={winner} onRematch={handleRematch}/>}
         <Board onSelectSquare={handleSelectSquare} gameBoard={gameBoard} />
       </div>
-      <Scores turns={gameTurns} />
+      <Logs turns={gameTurns} />
     </main>
   )
 }

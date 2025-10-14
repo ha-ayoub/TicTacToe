@@ -1,4 +1,4 @@
-export default function Scores({ turns }) {
+export default function Logs({ turns }) {
     return (
         <ol id="log">
             {turns.map(turn => (
