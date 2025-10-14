@@ -5,7 +5,7 @@
 
 
 <h2 id="fr">🇫🇷 Version Française</h2>
-Le projet est une implémentation moderne du célèbre jeu Tic-Tac-Toe (Morpion), développée avec React 19, TypeScript, Vite et CSS.
+Le projet est une implémentation moderne du célèbre jeu Tic-Tac-Toe (Morpion), développée avec React 19, Vite et CSS.
 L’objectif était de créer une petite application web ludique, rapide et responsive, tout en explorant les fonctionnalités les plus récentes de React et en pratiquant les bons principes de développement front-end.
 
 Le jeu permet à deux joueurs de s’affronter sur le même écran, en alternant leurs tours.
@@ -17,8 +17,6 @@ Lorsqu’un joueur gagne ou que la grille est remplie sans vainqueur, une alerte
     ⚛️ React 19 – composants fonctionnels et hooks
 
     🌀 Vite – outil de build rapide pour le développement
-
-    🧩 TypeScript – typage statique pour un code plus robuste
 
     🎨 CSS – mise en page responsive et stylisée
 
@@ -35,7 +33,7 @@ Lorsqu’un joueur gagne ou que la grille est remplie sans vainqueur, une alerte
 <br><br><br>
 <h2 id="en">🇬🇧 English Version</h2>
 
-The project is a modern implementation of the classic Tic-Tac-Toe game, built with React 19, TypeScript, Vite, and CSS.
+The project is a modern implementation of the classic Tic-Tac-Toe game, built with React 19, Vite, and CSS.
 The goal was to create a small, fun, fast, and responsive web application while exploring the latest features of React and applying solid front-end development practices.
 
 The game allows two players to compete on the same screen, taking turns to play.
@@ -44,15 +42,12 @@ When a player wins or the board is full with no winner, a game-over alert is dis
 
 🔧 Technologies used
 
-⚛️ React 19 – functional components and hooks
+    ⚛️ React 19 – functional components and hooks
 
-🌀 Vite – fast build tool for development
+    🌀 Vite – fast build tool for development
 
-🧩 TypeScript – static typing for more reliable code
+    🎨 CSS – responsive and clean styling
 
-🎨 CSS – responsive and clean styling
-
-🎮 Game Features
 
 -Local 1v1 Tic-Tac-Toe (two players on the same screen)
 -Current player indicator
