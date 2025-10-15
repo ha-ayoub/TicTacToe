@@ -47,6 +47,19 @@ h1 {
   color: #2b2a4e;
 }
 
+.developer_info {
+  margin-top: -20px;
+  color: rgba(0, 0, 0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.developer_info span {
+  font-weight: 600;
+  color: rgba(22, 91, 50, 0.5);
+}
+
 #game-container {
   max-width: 45rem;
   margin: 3rem auto;
